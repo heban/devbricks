@@ -10,13 +10,8 @@ import Scene from './components/scene/scene';
 
 const App = () => (
   <Fragment>
+    <Scene />
     <Header />
-    <main>
-      <Scene />
-    </main>
-    <footer>
-      Test footer
-    </footer>
     <GlobalStyles />
   </Fragment>
 );

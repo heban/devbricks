@@ -11,7 +11,10 @@ const SceneWrapper = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+
+  body:not(.aframe-inspector-opened) & {
+    z-index: -1;
+  }
 `;
 
 const Scene = () => (

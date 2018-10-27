@@ -10,9 +10,9 @@ import Scene from './components/scene/scene';
 
 const App = () => (
   <Fragment>
+    <GlobalStyles />
     <Scene />
     <Header />
-    <GlobalStyles />
   </Fragment>
 );
 

@@ -24,4 +24,8 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
+export const colors = {
+  skin: '#fcdac4',
+};
+
 export default GlobalStyles;

@@ -26,6 +26,7 @@ const GlobalStyles = createGlobalStyle`
 
 export const colors = {
   skin: '#fcdac4',
+  blue: '#22a7f0',
 };
 
 export default GlobalStyles;

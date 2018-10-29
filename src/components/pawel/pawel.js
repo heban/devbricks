@@ -30,10 +30,15 @@ const Pawel = () => (
       <a-box scale="-0.183 0.36543553946404106 0.09550669473152262" position="0 -0.130 -0.142" material="color: #009bff" />
       <a-box scale="-0.186 0.057 0.149" position="0.001 -0.314 -0.168" material="color: #093254" />
     </a-entity>
-    <a-entity className="pawel-right-arm" position="0.862 1.086 -2.601" scale="-0.142 0.103 0.151">
+    <a-entity className="pawel-right-arm" position="0.872 1.086 -2.609" scale="-0.142 0.103 0.151" rotation="-30 -14 10">
       <a-box material="color: #373737" />
-      {/* <a-box material="color: #ffd597"
-      position="0.009 -0.001 -0.992" scale="0.897 0.9 1.2336008511848031" /> */}
+      <a-box material="color: #ffd597" position="0.009 -0.001 -0.992" scale="0.897 0.9 1.2336008511848031" />
+      <a-box material="color: #ffd597" position="0.6153945250487429 0.003877228328315222 -1.6810550392499441" scale="2.031 0.894 0.595" rotation="0 20 0" />
+    </a-entity>
+    <a-entity className="pawel-left-arm" position="0.330 1.086 -2.609" scale="-0.142 0.103 0.151" rotation="-30 14 -10">
+      <a-box material="color: #373737" />
+      <a-box material="color: #ffd597" position="0.009 -0.001 -0.992" scale="0.897 0.9 1.2336008511848031" />
+      <a-box material="color: #ffd597" position="-0.6153945250487429 0.003877228328315222 -1.6810550392499441" scale="2.031 0.894 0.595" rotation="0 -20 0" />
     </a-entity>
   </a-entity>
 );

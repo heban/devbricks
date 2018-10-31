@@ -4,6 +4,9 @@ const displayName = 'Pawel';
 
 const Pawel = () => (
   <a-entity rotation="0 -90 0" position="-3.804 -0.296 -3.860">
+    <a-entity classname="pawel-head" position="0.598 1.300 -2.6442555311230107" scale="0.396 0.40214599896299696 0.103" rotation="-25 0 0">
+      <a-box material="color: #ffd597" scale="0.576 0.579 1.571" />
+    </a-entity>
     <a-entity classname="pawel-body" position="0.598 0.982 -2.58" scale="0.396 0.40214599896299696 0.103">
       <a-box material="color: #373737" position="0 -0.039 0" />
       <a-box material="color: #009bff" position="0 -0.786 0" scale="1 0.318 1" />
@@ -17,7 +20,7 @@ const Pawel = () => (
       </a-entity>
       <a-animation
         attribute="rotation"
-        dur="5000"
+        dur="2000"
         direction="alternate-reverse"
         from="0 -11.862 0"
         to="0 -15 0"
@@ -30,15 +33,15 @@ const Pawel = () => (
       <a-box scale="-0.183 0.36543553946404106 0.09550669473152262" position="0 -0.130 -0.142" material="color: #009bff" />
       <a-box scale="-0.186 0.057 0.149" position="0.001 -0.314 -0.168" material="color: #093254" />
     </a-entity>
-    <a-entity className="pawel-right-arm" position="0.872 1.086 -2.609" scale="-0.142 0.103 0.151" rotation="-30 -14 10">
+    <a-entity className="pawel-right-arm" position="0.862 1.086 -2.609" scale="-0.122 0.093 0.140" rotation="-40 -4 -15">
       <a-box material="color: #373737" />
       <a-box material="color: #ffd597" position="0.009 -0.001 -0.992" scale="0.897 0.9 1.2336008511848031" />
-      <a-box material="color: #ffd597" position="0.6153945250487429 0.003877228328315222 -1.6810550392499441" scale="2.031 0.894 0.595" rotation="0 20 0" />
+      <a-box material="color: #ffd597" position="0.593 0.009283690278304238 -1.8429885341109562" scale="2.031 0.894 0.595" rotation="0 29 0.5" />
     </a-entity>
-    <a-entity className="pawel-left-arm" position="0.330 1.086 -2.609" scale="-0.142 0.103 0.151" rotation="-30 14 -10">
+    <a-entity className="pawel-left-arm" position="0.336 1.086 -2.609" scale="-0.122 0.093 0.140" rotation="-40 4 15">
       <a-box material="color: #373737" />
       <a-box material="color: #ffd597" position="0.009 -0.001 -0.992" scale="0.897 0.9 1.2336008511848031" />
-      <a-box material="color: #ffd597" position="-0.6153945250487429 0.003877228328315222 -1.6810550392499441" scale="2.031 0.894 0.595" rotation="0 -20 0" />
+      <a-box material="color: #ffd597" position="-0.593 0.009283690278304238 -1.8429885341109562" scale="2.031 0.894 0.595" rotation="0 -29 -0.5" />
     </a-entity>
   </a-entity>
 );
